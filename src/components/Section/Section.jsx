@@ -11,7 +11,7 @@ export const Section = ({ title, titleStat, children }) => {
   );
 };
 
-Section.propTypes = {
-  title: PropTypes.string,
-  titleStat: PropTypes.string,
-};
+// Section.propTypes = {
+//   title: PropTypes.string,
+//   titleStat: PropTypes.string,
+// };

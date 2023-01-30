@@ -10,14 +10,12 @@ export const Statistics = ({
 }) => {
   return (
     <>
-      <Counter className="counter">
-        <span className="counterGood">Good: {good}</span>
-        <span className="counterNeutral">Neutral: {neutral}</span>
-        <span className="counterBad">Bad: {bad}</span>
-        <span className="counterTotal">Total: {total}</span>
-        <span className="counterPositive">
-          Positive feedback: {positivePercentage} %
-        </span>
+      <Counter>
+        <span>Good: {good}</span>
+        <span>Neutral: {neutral}</span>
+        <span>Bad: {bad}</span>
+        <span>Total: {total}</span>
+        <span>Positive feedback: {positivePercentage} %</span>
       </Counter>
     </>
   );
