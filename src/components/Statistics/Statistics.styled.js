@@ -4,5 +4,5 @@ export const Counter = styled.div`
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
 `;
